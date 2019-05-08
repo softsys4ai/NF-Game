@@ -1,0 +1,11 @@
+V3 Notes:
+
+The game is controlled by two competing inputs/events. One event takes a picture every 10 milliseconds (which can be controlled on line 111), and the other event takes input from mouse position.
+
+Need to change the file path that game images are saved to (line 102)
+
+Opponent's paddle randomly changes speed each time it changes direction. 
+
+If one desires to play the game without image recording, comment out lines 225-240
+
+

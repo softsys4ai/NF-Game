@@ -1,0 +1,7 @@
+V4 Notes
+
+This game is controlled by one input event that goes off every 10ms. Each time, the game has a screenshot recorded, and the player's paddle position is updated as well. This would be the optimal way to incorporate mulitple actions/inputs, as events do not have to compete with each other.
+
+Need to change the file path that game images are saved to (line 102).
+
+To play the game without images being taken, comment out lines 220-221.
